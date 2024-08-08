@@ -19,9 +19,6 @@ export const Books = () => {
         <li>
           <Link to="/books/oldbook">OldBook</Link>
         </li>
-        <li>
-          <Link to="/books/newbook">NewBook</Link>
-        </li>
       </ul>
       <input type="number" value={number} onChange={(e)=>{setSearchParams({n:e.target.value})}} step={2} min={5} max={100}/>
     </div>
